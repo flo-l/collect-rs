@@ -44,7 +44,7 @@ pub use tree_map::TreeMap;
 pub use tree_set::TreeSet;
 pub use trie_map::TrieMap;
 pub use trie_set::TrieSet;
-
+pub use negative_set::NegativeSet;
 
 
 
@@ -65,6 +65,7 @@ pub mod enum_set;
 pub mod immut_slist;
 pub mod interval_heap;
 pub mod lru_cache;
+pub mod negative_set;
 
 pub mod tree_map {
     pub use tree::map::*;
